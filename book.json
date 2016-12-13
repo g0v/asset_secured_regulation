@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "lexicon",
+    "json"
+  ],
+  "pluginsConfig": {
+    "json": {
+      "output": "_book/content.json"
+    },
+    "discourse": {
+       "url": "https://talk.vtaiwan.tw/",
+       "api_key": "",
+       "api_username": "system",
+       "parent_category_id": 124,
+       "parent_category_name": "企業資產擔保交易法"
+    }
+  }
+}
